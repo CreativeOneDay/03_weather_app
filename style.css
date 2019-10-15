@@ -5,6 +5,7 @@ body {
 	color: white;
 }
 
+
 .flex-container {
 	width: 50%;
 	margin: 0 auto;
@@ -60,8 +61,14 @@ body {
 
 .weatherWrapper {
     display: grid;
-    grid-gap: 10px;
+    /*grid-gap: 10px;*/
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+}
+
+.day1, .day2, .day3{
+
+  text-align: center;
+  border-bottom: 1px solid white;
 }
 
 .box {
